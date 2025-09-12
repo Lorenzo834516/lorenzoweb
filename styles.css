@@ -1,4 +1,149 @@
-.ingrediente-faltante{color: rgb(209, 20, 20);}
+body{
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: #f80;
+    color: #fff;
+}
+
+div, header, h1, nav, h2, nav, ul, p, img{
+    box-sizing: border-box;
+}
+/*HEADER SECTION*/
+.header{
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-image: url(https://images.unsplash.com/photo-1663970206579-c157cba7edda?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Zm9uZG8lMjBkZSUyMHBhbnRhbGxhJTIwcGFyYSUyMGVzY3JpdG9yaW98ZW58MHx8MHx8fDA%3D);
+    display: flex;
+    background-size: cover;
+}
+.header__overlay{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #f809;
+    position: absolute;
+    z-index: 1;
+}
+.header__item-container{
+    position: relative;
+    z-index: 10;
+    margin: auto;
+    text-align: center;
+    max-width: 700px;
+}
+.header__item-container p{
+    text-wrap: pretty;
+}
+.header__img{
+    min-width: 250px;
+    max-width: 50%;
+    border-radius: 20%;
+    border: 6px solid #fff;
+    margin: 20px;
+}
+
+h1{
+    margin: 0;
+    font-size: 3.6rem;
+    text-wrap: balance;
+}
+
+/*NAVBAR SECTION*/
 
 
-#ingrediente-secreto{color: blue;}
+.nav{
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 6px 20px;
+    position: sticky;
+    top: 0;
+    margin-bottom: 10px;
+    box-shadow: 0 0 40px #f809;
+}
+.nav__ul{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+.nav__item{
+    list-style: none;
+}
+.nav__ul-container{
+    flex-grow: 4;
+    text-align: center;
+}
+.nav__logo-container{
+    flex-grow: 1 ;
+    text-align: center;
+}
+
+.nav__link{
+    color: #f80;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 10px;
+    border-radius: 0;
+    transition: background-color 0.2s, border-radius 0.23s, outline 0.2s, outline-offset  ;
+    margin: 2px;
+    outline: 0;
+    outline-offset: 0;
+}
+
+.nav__link:hover{
+    background-color: #f809;
+    border-radius: 20px;
+    outline: 2px solid #f806;
+    outline-offset: -7px;
+}
+
+.link--login{
+    background-color: #f80;
+    color: #fff;
+    border-radius: 20px;
+    padding: 8px 24px;
+    margin-left: 6px;
+
+}
+
+.link--login:hover{
+    background-color: #f809;
+    outline: none;
+}
+
+.nav__logo{
+    width: 60px;
+}
+
+
+/*MAIN SECTION*/
+
+main{
+    max-width: 800px;
+    margin: auto;
+    font-size: 30px;
+    text-wrap: pretty;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
