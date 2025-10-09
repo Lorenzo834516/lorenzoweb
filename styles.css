@@ -20,7 +20,7 @@ drop-shadow(0px 0px 2px #fff9) drop-shadow(0px 0px 12px #fff9) drop-shadow(0px 0
 .text {
     color: #fff;
     letter-spacing: 4px;
-    animation: grow 1s both steps(7);
+    animation: grow 2s both steps(7);
     overflow: hidden;
     font-size: 30px;
     position: relative;
